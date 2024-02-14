@@ -19,13 +19,12 @@
               <?php 
                 // 1. On définit les arguments pour définir ce que l'on souhaite récupérer
                 $args = array(
-                    'post_type' => 'post',
-                    'category_name' => 'formations',
+                    'post_type' => 'formations',
                     'posts_per_page' => 3,
                 );
                 
                 echo "<pre>";
-                echo $args;
+                var_dump($args);
                 echo "</pre>";
 
                 // 2. On exécute la WP Query
@@ -35,10 +34,10 @@
                 if( $my_query->have_posts() ) : while( $my_query->have_posts() ) : $my_query->the_post();?>
                     
                     <div class='carousel-item'>
-                      <?php get_the_post_thumbnail();?>
+                      <?php the_post_thumbnail();?>
                        <div class='carousel-caption d-md-block'>
-                       <?php get_the_title();?>
-                       <?php get_the_content();?>
+                       <?php the_title();?>
+                       <?php the_content();?>
                          <div class='d-flex justify-content-center'>
                             <button class='btn btn-danger '>Nous contacter</button>
                             <button class='btn btn-danger ms-4'>Plus d'information</button>
