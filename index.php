@@ -20,7 +20,7 @@
                 <div class="carousel-caption d-md-block">
                   <h2>Titre développeur web et web mobile</h2>
                   <p class = "d-none d-md-block">Formation proposé par le greta de Mende, successeur de la formation Codi'n'camp apprené la programation de site web pour mobile et pc</p>
-                  <button class="btn btn-danger ">Nous contacter</button><button class="btn btn-danger ms-4">Plus d'information</button>
+                  <div class="d-flex justify-content-center"><button class="btn btn-danger ">Nous contacter</button><button class="btn btn-danger ms-4">Plus d'information</button></div>
                 </div>
               </div>
               <div class="carousel-item">
@@ -28,7 +28,7 @@
                 <div class="carousel-caption d-md-block">
                     <h2>Titre professionnel technicien supérieur systèmes et réseaux</h2>
                     <p class = "d-none d-md-block">Formation proposé par le greta de Mende, successeur de la formation Codi'n'camp apprené la programation de site web pour mobile et pc</p>
-                    <button class="btn btn-danger">Nous contacter</button><button class="btn btn-danger ms-4">Plus d'information</button>
+                    <div class="d-flex justify-content-center"><button class="btn btn-danger">Nous contacter</button><button class="btn btn-danger ms-4">Plus d'information</button></div>
                 </div>
               </div>
               <div class="carousel-item">
@@ -36,7 +36,7 @@
                 <div class="carousel-caption d-md-block">
                   <h2>Third slide label</h2>
                   <p class = "d-none d-md-block">Some representative placeholder content for the third slide.</p>
-                  <button class="btn btn-danger ">Nous contacter</button><button class="btn btn-danger ms-4">Plus d'information</button>
+                  <div class = "d-flex justify-content-center"><button class="btn btn-danger">Nous contacter</button><button class="btn btn-danger ms-4">Plus d'information</button></div>
                 </div>
               </div>
             </div>

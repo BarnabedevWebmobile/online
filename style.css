@@ -27,9 +27,9 @@ i{
 height : 450px
 }
 .card img{
-width: 400px;
-height: auto;
-}
+	width : 100%;
+	height: auto;
+    }
 .hero-banner{
     background-image: url(https://greta.1.lopia.fr/wp-content/uploads/2024/02/hero-banner.png);
     background-repeat: no-repeat;
@@ -74,10 +74,6 @@ footer a :hover{
     }
     .actualite img{
         height: 200px;
-    }
-    .card img{
-	width : 100%;
-	height: auto;
     }
     .carte img{
 	width : 100%;

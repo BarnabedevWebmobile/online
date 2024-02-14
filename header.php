@@ -20,10 +20,11 @@
             </div>
             
         </div>
-        <ul class="d-md-flex d-none justify-content-end list-unstyled">
+        <!-- <ul class="d-md-flex d-none justify-content-end list-unstyled">
             <li class="pe-3 pt-5"><a href=""><h5>nous contacter</h5></a></li>
             <li class="pe-3 pt-5"><a href=""><h5>nos formations</h5></a></li>
             <li class="pe-3 pt-5"><a href=""><h5>nos partenaires</h5></a></li>
             <li class="pe-3 pt-5 "><a href="http://maforpro-occitanie.fr/nos-formations/tp-developpeur-web-et-web-mobile-0-20220718124628"><h5>maforpro-occitanie</h5></a></li>
-        </ul>
+        </ul> -->
+        <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
     </header>
