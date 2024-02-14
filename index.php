@@ -23,6 +23,10 @@
                     'category_name' => 'formations',
                     'posts_per_page' => 3,
                 );
+                
+                echo "<pre>";
+                echo $args;
+                echo "</pre>";
 
                 // 2. On exécute la WP Query
                 $my_query = new WP_Query( $args );
@@ -35,7 +39,10 @@
                        <div class='carousel-caption d-md-block'>
                        <?php get_the_title();?>
                        <?php get_the_content();?>
-                         <div class='d-flex justify-content-center'><button class='btn btn-danger '>Nous contacter</button><button class='btn btn-danger ms-4'>Plus d'information</button></div>
+                         <div class='d-flex justify-content-center'>
+                            <button class='btn btn-danger '>Nous contacter</button>
+                            <button class='btn btn-danger ms-4'>Plus d'information</button>
+                        </div>
                     </div>
                    </div>
 
