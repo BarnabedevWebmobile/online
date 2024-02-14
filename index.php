@@ -20,7 +20,7 @@
                 // 1. On définit les arguments pour définir ce que l'on souhaite récupérer
                 $args = array(
                     'post_type' => 'post',
-                    'category_name' => 'films',
+                    'category_name' => 'formations',
                     'posts_per_page' => 3,
                 );
 
@@ -28,12 +28,18 @@
                 $my_query = new WP_Query( $args );
 
                 // 3. On lance la boucle !
-                if( $my_query->have_posts() ) : while( $my_query->have_posts() ) : $my_query->the_post();
+                if( $my_query->have_posts() ) : while( $my_query->have_posts() ) : $my_query->the_post();?>
                     
-                    the_title();
-                    the_content();
-                    the_post_thumbnail();
+                    <div class='carousel-item'>
+                      <?php get_the_post_thumbnail();?>
+                       <div class='carousel-caption d-md-block'>
+                       <?php get_the_title();?>
+                       <?php get_the_content();?>
+                         <div class='d-flex justify-content-center'><button class='btn btn-danger '>Nous contacter</button><button class='btn btn-danger ms-4'>Plus d'information</button></div>
+                    </div>
+                   </div>
 
+                <?php
                 endwhile;
                 endif;
 
