@@ -1,4 +1,9 @@
-<?function register_my_menu() {
-  register_nav_menu('header-menu',__( 'Header Menu' ));
+<?php
+function montheme_supports()
+{
+    register_nav_menu('menu-head', 'En tête du menu');
+    register_nav_menu('footer', 'Pied de page');
 }
-add_action( 'init', 'register_my_menu' );?>
+
+add_action('after_setup_theme', 'montheme_supports');
+?>
