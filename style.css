@@ -41,15 +41,59 @@ height : 450px
 .actualite img{
     height: 400px;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 footer{
-    background-color: #666;
+    /* text-align: center; */
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer h4{
+    text-transform: uppercase;
+    color: #1779a3;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer li{
+    color: rgb(191,178,152);
+}
+
+footer label{
+    color: white;
+}
+
+.footer {
+    background-color: rgb(0,51,80);
+}
+
+.footer ul p {
+    color: white;
+}
+
+.footr{
+   background-color: rgb(1,26,45);
+   color: white;
+}
+
+
+.x_twitter{
     color: #fff;
 }
-footer a{
+
+.linked_in{
     color: #fff;
 }
-footer a :hover{
+
+.footr a{
     color: #000;
+    text-align: center;
 }
 @media (max-width : 450px){
 
