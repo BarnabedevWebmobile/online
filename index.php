@@ -14,32 +14,34 @@
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
+
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/codes.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-md-block">
-                  <h2>Titre développeur web et web mobile</h2>
-                  <p class = "d-none d-md-block">Formation proposé par le greta de Mende, successeur de la formation Codi'n'camp apprené la programation de site web pour mobile et pc</p>
-                  <div class="d-flex justify-content-center"><button class="btn btn-danger ">Nous contacter</button><button class="btn btn-danger ms-4">Plus d'information</button></div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/codes.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-md-block">
-                    <h2>Titre professionnel technicien supérieur systèmes et réseaux</h2>
-                    <p class = "d-none d-md-block">Formation proposé par le greta de Mende, successeur de la formation Codi'n'camp apprené la programation de site web pour mobile et pc</p>
-                    <div class="d-flex justify-content-center"><button class="btn btn-danger">Nous contacter</button><button class="btn btn-danger ms-4">Plus d'information</button></div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/banner.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-md-block">
-                  <h2>Third slide label</h2>
-                  <p class = "d-none d-md-block">Some representative placeholder content for the third slide.</p>
-                  <div class = "d-flex justify-content-center"><button class="btn btn-danger">Nous contacter</button><button class="btn btn-danger ms-4">Plus d'information</button></div>
-                </div>
-              </div>
+              <?php 
+                // 1. On définit les arguments pour définir ce que l'on souhaite récupérer
+                $args = array(
+                    'post_type' => 'post',
+                    'category_name' => 'films',
+                    'posts_per_page' => 3,
+                );
+
+                // 2. On exécute la WP Query
+                $my_query = new WP_Query( $args );
+
+                // 3. On lance la boucle !
+                if( $my_query->have_posts() ) : while( $my_query->have_posts() ) : $my_query->the_post();
+                    
+                    the_title();
+                    the_content();
+                    the_post_thumbnail();
+
+                endwhile;
+                endif;
+
+                // 4. On réinitialise à la requête principale (important)
+                wp_reset_postdata();
+              ?>    
             </div>
+
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
@@ -105,7 +107,7 @@
                 
                 
                     <div class="mt-4">
-                        <img src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/carte-des-greta.png" alt="">
+                        <img src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/carte-des-greta.png" alt="carte localisationcentres GRETA Occitanie">
                     </div>
                 
             </div>
