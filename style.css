@@ -7,6 +7,16 @@ Description: Theme team 1
     height:100px;
 }
 
+.lesplus{
+    border: 3px solid;
+    border-color:rgb(46,204,113);
+    border-radius: 5px;
+}
+
+.nosform{
+    font-weight: 700;
+    font-size: 35px;
+}
 a{
     text-decoration: none;
     color: #000;

@@ -6,6 +6,11 @@
     </div>
     <section class="container col-12 ">
 
+      <div class="container flex-wrap mt-4">
+        <h2 class="text-center nosform">Découvrir nos formations</h2>
+        <p class="text-center mt-5">Parcourez notre sélection de programmes adaptés à différents secteurs d’activité et niveaux de compétence. Que vous cherchiez à acquérir de nouvelles compétences, à vous spécialiser ou à vous perfectionner, nos formations vous offrent les clés pour réussir dans votre domaine. Explorez notre catalogue et lancez-vous vers l’excellence professionnelle !</p>
+      </div>
+
         <h1 class="text-decoration-underline fw-bolder mt-5 text-center">Nos Formations </h1>
 
         <div id="carouselExampleCaptions" class="carousel slide mt-5 mb-5 formation " data-bs-ride="carousel">
@@ -17,6 +22,8 @@
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
             </div>
+            
+
             
             <div class="carousel-inner">
               <?php
@@ -77,7 +84,14 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-
+        
+        <div class="d-flex justify-content-center align-items-center flex-column mb-3">
+          <div class="container col-md-4 lesplus flex-wrap justify-content-center d-flex py-3 my-5">
+            <h2 class="mt-3">Les + du GRETA :</h2>
+            <p class=" mt-3">Notre grande valeur ajoutée pour les alternants est la sécurisation des parcours avec une proposition de changements de statuts en restant dans la même formation et en donnant la possibilité de terminer son parcours de formation avec ou sans employeurs dans la grande majorité des cas.</p>
+          </div> 
+          <p class="text-center mb-3 mt-5">Ces formations répondent au cahier des charges des Écoles régionales numériques (ERN) de la région Occitanie.</p>
+        </div>
         
 
 
