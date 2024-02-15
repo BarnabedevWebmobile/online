@@ -3,9 +3,16 @@ Theme Name: DWWM team1 theme
 Description: Theme team 1
 */
 
+.vide{
+    height:100px;
+}
+
 a{
     text-decoration: none;
     color: #000;
+}
+header nav{
+
 }
 header img{
     max-width: 250px;
@@ -31,10 +38,11 @@ height : 750px;
 	height: auto;
     }
 .logo img{
-    width :200px;
+    width :100%;
     height:150px;
 }
-.logo img .edunum{
+.logospe{
+    padding-top:25px;
     height:100px;
 }
 .hero-banner{
@@ -129,5 +137,17 @@ footer label{
     .carte img{
 	width : 100%;
 	height: auto;
+    }
+    .logospe{
+       padding-top:15px;
+       width:100px;
+       height:75px;
 }
+    .logo{
+       width:100px;
+       height:75px;
+}
+    .btn{
+	font-size:12px;
+    }
 }

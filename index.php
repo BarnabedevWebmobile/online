@@ -25,36 +25,15 @@
               <?php 
                 // 1. On définit les arguments pour définir ce que l'on souhaite récupérer
                 $args = array(
-<<<<<<< Updated upstream
-                    'post_type' => 'formations',
-                    'posts_per_page' => 3,
-=======
                     'post_type' => 'formation',
                     'posts_per_page' => 15,
->>>>>>> Stashed changes
                 );
-                
-                echo "<pre>";
-                var_dump($args);
-                echo "</pre>";
 
                 // 2. On exécute la WP Query
                 $my_query = new WP_Query( $args );
 
                 // 3. On lance la boucle !
                 if( $my_query->have_posts() ) : while( $my_query->have_posts() ) : $my_query->the_post();?>
-<<<<<<< Updated upstream
-                    
-                    <div class='carousel-item'>
-                      <?php the_post_thumbnail();?>
-                       <div class='carousel-caption d-md-block'>
-                       <?php the_title();?>
-                       <?php the_content();?>
-                         <div class='d-flex justify-content-center'>
-                            <button class='btn btn-danger '>Nous contacter</button>
-                            <button class='btn btn-danger ms-4'>Plus d'information</button>
-                        </div>
-=======
                   
                   <?php
                     $title = get_field('titre');
@@ -74,7 +53,6 @@
                         <h2><?php echo $title?></h2>
                         <p class = "d-none d-md-block"><?php echo $descr?></p>
                          <div class='d-flex justify-content-center'><button class='btn btn-danger'>Nous contacter</button><button class='btn btn-danger ms-4'>Plus d'information</button></div>
->>>>>>> Stashed changes
                     </div>
                    </div>
                 <?php
@@ -106,12 +84,12 @@
         <div class="partenaire col-12">
 
             <h2>Nos partenaires</h2>
-            <span class="logo d-flex flex-md-row flex-column justify-content-center ">
-              <img src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/greta.png" alt="le logo du greta">
-              <img src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/lozere-development.png" alt="le logo de lozere developpement">
-              <img class ="edunum" src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/ecole-numerique.png" alt="le logo de l'ecole regionale du numerique">
-              <img src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/lozere.png" alt="le logo de la lozère">
-              <img src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/polen.png" alt="logo de polen">
+            <span class=" d-flex flex-md-row flex-column justify-content-center ">
+              <img class = "logo col-12 col-md-2 d-flex justify-content-center" src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/greta.png" alt="le logo du greta">
+              <img class = "logo col-12 col-md-2 d-flex justify-content-center" src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/lozere-development.png" alt="le logo de lozere developpement">
+              <img class ="logospe col-12 col-md-2 d-flex justify-content-center" src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/ecole-numerique.png" alt="le logo de l'ecole regionale du numerique">
+              <img class = "logo col-12 col-md-2 d-flex justify-content-center" src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/lozere.png" alt="le logo de la lozère">
+              <img class = "logo col-12 col-md-2 d-flex justify-content-center" src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/polen.png" alt="logo de polen">
 
             </span>
 
