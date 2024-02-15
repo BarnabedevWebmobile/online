@@ -13,14 +13,25 @@
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
             </div>
-
+            
             <div class="carousel-inner">
+              <?php
+              $index=1
+              ?>
               <?php 
                 // 1. On définit les arguments pour définir ce que l'on souhaite récupérer
                 $args = array(
+<<<<<<< Updated upstream
                     'post_type' => 'formations',
                     'posts_per_page' => 3,
+=======
+                    'post_type' => 'formation',
+                    'posts_per_page' => 15,
+>>>>>>> Stashed changes
                 );
                 
                 echo "<pre>";
@@ -32,6 +43,7 @@
 
                 // 3. On lance la boucle !
                 if( $my_query->have_posts() ) : while( $my_query->have_posts() ) : $my_query->the_post();?>
+<<<<<<< Updated upstream
                     
                     <div class='carousel-item'>
                       <?php the_post_thumbnail();?>
@@ -42,8 +54,32 @@
                             <button class='btn btn-danger '>Nous contacter</button>
                             <button class='btn btn-danger ms-4'>Plus d'information</button>
                         </div>
+=======
+                  
+                  <?php
+                    $title = get_field('titre');
+                    $descr = get_field('description');
+                    $posted = get_field('poster');
+                  ?>
+                  <?php
+                  if($index==1){?>
+                    <div class='carousel-item active'>
+                  <?php }else{ ?>
+                    <div class='carousel-item'><?php
+                  }
+                  ?>
+                  
+                  <img src="<?php echo $posted ?>" class="d-block w-100" alt="">
+                       <div class='carousel-caption'>
+                        <h2><?php echo $title?></h2>
+                        <p class = "d-none d-md-block"><?php echo $descr?></p>
+                         <div class='d-flex justify-content-center'><button class='btn btn-danger'>Nous contacter</button><button class='btn btn-danger ms-4'>Plus d'information</button></div>
+>>>>>>> Stashed changes
                     </div>
                    </div>
+                <?php
+                $index++
+                ?>
 
                 <?php
                 endwhile;
@@ -70,43 +106,56 @@
         <div class="partenaire col-12">
 
             <h2>Nos partenaires</h2>
-            <span class="logo">
-                <img class="w-100" src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/logos-multiple.png" alt="les logo des différents partenaire de la formation">
+            <span class="logo d-flex flex-md-row flex-column justify-content-center ">
+              <img src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/greta.png" alt="le logo du greta">
+              <img src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/lozere-development.png" alt="le logo de lozere developpement">
+              <img class ="edunum" src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/ecole-numerique.png" alt="le logo de l'ecole regionale du numerique">
+              <img src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/lozere.png" alt="le logo de la lozère">
+              <img src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/polen.png" alt="logo de polen">
+
             </span>
 
         </div>
 
         <div class = "d-flex justify-content-between flex-md-row flex-column">
-          <div class="col-12 col-md-3 mt-5 ">
-          <div class="card w-100">
-            <img src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/lozere.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          </div>
-          <div class="col-12 col-md-3 mt-5 ">
-            <div class="card w-100 ">
-              <img src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/lozere.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+
+          
+
+          <?php 
+            // 1. On définit les arguments pour définir ce que l'on souhaite récupérer
+            $args = array(
+                'post_type' => 'actualite',
+                'posts_per_page' => 3,
+                'orderby' => 'date',
+            );
+
+            // 2. On exécute la WP Query
+            $my_query = new WP_Query( $args );
+
+            // 3. On lance la boucle !
+            if( $my_query->have_posts() ) : while( $my_query->have_posts() ) : $my_query->the_post();?>
+                
+               <?php
+                $urlimg = get_field('image_url');
+                $intitule = get_field('intitule');
+                $content = get_field('texte');
+               ?>
+            <div class="col-12 col-md-3 mt-5 ">
+              <div class="card w-100">
+                <img src="<?php echo $urlimg;?>" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><?php echo $intitule;?></h5>
+                  <p class="card-text"><?php echo $content ;?></p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-12 col-md-3 mt-5 ">
-            <div class="card w-100 ">
-              <img src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/lozere.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
+            
+            <?php
+            endwhile;
+            endif;
+
+            // 4. On réinitialise à la requête principale (important)
+            wp_reset_postdata();?>
 
         </div>
 
@@ -119,7 +168,7 @@
                 
                 
                     <div class="mt-4">
-                        <img src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/carte-des-greta.png" alt="carte localisationcentres GRETA Occitanie">
+                        <img src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/carte-des-greta.png" alt="">
                     </div>
                 
             </div>
