@@ -1,3 +1,6 @@
+
+<!-- Contact -->
+
 <?php get_header(); ?>
 
 <div class='w-25 vide'></div>

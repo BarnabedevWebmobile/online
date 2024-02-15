@@ -1,3 +1,9 @@
+
+
+<!-- Nos partenaires -->
+
+
+
 <?php get_header(); ?>
 
 
