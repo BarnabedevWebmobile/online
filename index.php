@@ -33,7 +33,7 @@
                 // 1. On définit les arguments pour définir ce que l'on souhaite récupérer
                 $args = array(
                     'post_type' => 'formation',
-                    'posts_per_page' => 15,
+                    'posts_per_page' => 12,
                 );
 
                 // 2. On exécute la WP Query
@@ -98,8 +98,8 @@
         <div class="partenaire col-12">
 
             <h2>Nos partenaires</h2>
-            <span class=" d-flex flex-md-row flex-column justify-content-center ">
-              <img class = "logo col-12 col-md-2 d-flex justify-content-center" src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/greta.png" alt="le logo du greta">
+            <span class=" d-flex flex-md-row flex-column justify-content-center align-items-center">
+              <img class = "logo col-12 col-md-2 d-flex justify-content-center " src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/greta.png" alt="le logo du greta">
               <img class = "logo col-12 col-md-2 d-flex justify-content-center" src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/lozere-development.png" alt="le logo de lozere developpement">
               <img class ="logospe col-12 col-md-2 d-flex justify-content-center" src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/ecole-numerique.png" alt="le logo de l'ecole regionale du numerique">
               <img class = "logo col-12 col-md-2 d-flex justify-content-center" src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/lozere.png" alt="le logo de la lozère">
