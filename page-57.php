@@ -9,8 +9,8 @@
 
 <div class='w-25 vide'></div>
 
-<div class="text-center fw-bold fs-1">
-    <?php the_title(); ?>
+<div class="d-flex flex-column">
+    <h1 class="text-center fw-bold fs-1"><?php the_title(); ?></h1>
 
     <div>
 
@@ -35,10 +35,10 @@
                   ?>
                   
                   <div class="d-flex flex-md-row border border-dark border-3 m-5 p-5">
-                    <img src="<?php echo $posted ;?>" class="img-fluid">
-                    <div class="d-flex flex-column">
-                      <p class=""><?php echo $title;?></p>
-                      <p class=""><?php echo $descr;?></p>
+                    <img src="<?php echo $posted ;?>" class="img-fluid w-25">
+                    <div class="d-flex flex-column w-100">
+                      <p class="text-center fs-2"><?php echo $title;?></p>
+                      <p class="text-center fs-3"><?php echo $descr;?></p>
                     </div>                 
                   </div>
 
@@ -49,7 +49,7 @@
                 // 4. On réinitialise à la requête principale (important)
                 wp_reset_postdata();
               ?>    
-            </div>
+    </div>
 </div>
 
 
