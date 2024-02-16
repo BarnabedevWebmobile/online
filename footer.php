@@ -40,8 +40,10 @@
                 <span class="text-center col-12">
                     <ul>
                         <h3>Nos réseaux sociaux : <br> <button onclick="" class="btn btn-primary">Contactez-nous.</button></h3>
-                        <li><a href="https://twitter.com/DRAFPICA_Occ" target="_blank"><i class="fa-brands fa-x-twitter x_twitter"></i></a></li>
-                        <li><a href="https://fr.linkedin.com/school/greta-occitanie/" target="_blank"><i class="linked_in fa-brands fa-linkedin"></i></a></li>
+                        <span class="d-flex justify-content-center">
+                        <li class = "me-1"><a href="https://twitter.com/DRAFPICA_Occ" target="_blank"><i class="fa-brands fa-x-twitter x_twitter"></i></a></li>
+                        <li class = "ms-1"><a href="https://fr.linkedin.com/school/greta-occitanie/" target="_blank"><i class="linked_in fa-brands fa-linkedin"></i></a></li>
+                        </span>
                     </ul>
                 </span>
             </div>
