@@ -1,7 +1,6 @@
 
 
-<!-- Nos partenaires -->
-
+<!-- Page nos partenaires -->
 
 
 <?php get_header(); ?>

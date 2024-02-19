@@ -1,5 +1,11 @@
     <footer class="footer">
+
         <div class="container d-flex flex-column flex-md-row py-3 justify-content-between">
+
+
+        <!-- Les trois colonnes avec différents liens dont les réseaux sociaux -->
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+
             <span class="col-md-3 col-12 text-center">
                 <h4>qui sommes-nous ?</h1>
                 <ul>
@@ -31,6 +37,8 @@
             </span>
             
         </div>
+
+        <!-- Copyrights et nom de l'agence créatrice -->
         <div class="container footr mt-3">
             <span class="col-12 text-center">
                 <ul>
@@ -40,6 +48,7 @@
             </span>
             <p class="text-center pb-2">© 2024 GRETA, Tous droits réservés | Mentions légales</p>
         </div>
+
     </footer>
 </body>
 </html>
