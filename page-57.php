@@ -41,34 +41,6 @@
           </div>                 
         </div>
 
-<<<<<<< Updated upstream
-                // 3. On lance la boucle !
-                if( $my_query->have_posts() ) : while( $my_query->have_posts() ) : $my_query->the_post();
-                ?>
-                
-                  <?php
-                    $title = get_field('titre');
-                    $descr = get_field('description');
-                    $posted = get_field('poster');
-                  ?>
-                  
-                  <div class="d-flex flex-md-row border border-dark border-3 m-5 p-5">
-                    <img src="<?php echo $posted ;?>" class="img-fluid w-25">
-                    <div class="d-flex flex-column w-100">
-                      <p class="text-center fs-2"><?php echo $title;?></p>
-                      <p class="text-center fs-3"><?php echo $descr;?></p>
-                    </div>                 
-                  </div>
-
-                <?php
-                endwhile;
-                endif;
-
-                // 4. On réinitialise à la requête principale (important)
-                wp_reset_postdata();
-              ?>    
-    </div>
-=======
       <?php
       endwhile;
       endif;
@@ -77,7 +49,6 @@
       wp_reset_postdata();
     ?>    
   </div>
->>>>>>> Stashed changes
 </div>
 
 
