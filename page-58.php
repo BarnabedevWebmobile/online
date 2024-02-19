@@ -1,6 +1,6 @@
 
 
-<!-- Nos partenaires -->
+<!-- Page nos partenaires -->
 
 
 

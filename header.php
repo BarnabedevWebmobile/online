@@ -12,8 +12,14 @@
 <body>
 
     <header class="d-flex col-12 justify-content-around fixed-top bg-white ">
+
+    <!-- Lien vers la page d'accueil GRETA Gard/Lozère -->
         <a href="https://greta.1.lopia.fr/" class="col-8 col-md-2 ps-3 "><img  src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/logo.png" alt="logo du greta et de la france"></a>
+
+    <!-- Element de séparation -->
         <div class="col-2"></div>
+
+    <!-- Menu navigation -->
         <div class="col-1 d-md-none d-flex align-items-center">
             <div class=" d-flex">
                 <i class="fa-solid fa-bars"></i>
@@ -28,5 +34,4 @@
                 )
             );
         ?>
-
     </header>
