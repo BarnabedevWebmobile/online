@@ -9,8 +9,8 @@
 
 <div class='w-25 vide'></div>
 
-<div class="d-flex flex-column">
-    <h1 class="text-center fw-bold fs-1"><?php the_title(); ?></h1>
+<div class="text-center fw-bold fs-1">
+    <?php the_title(); ?>
 
     <div class="d-flex w-100 flex-column justify-content-center">
     <?php 
