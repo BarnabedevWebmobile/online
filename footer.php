@@ -34,11 +34,11 @@
         <div class="container footr mt-3">
             <span class="col-12 text-center">
                 <ul>
-                    <h2 class="mt-4 text-center ">design by berta@bretzeldesign ft.wordpress</h2>
+                    <h2 class="mt-4 pt-2 text-center ">design by bretzeldesign ft.wordpress</h2>
                     
                 </ul>
             </span>
-            <p class="text-center">© 2024 GRETA, Tous droits réservés | Mentions légales</p>
+            <p class="text-center pb-2">© 2024 GRETA, Tous droits réservés | Mentions légales</p>
         </div>
     </footer>
 </body>
