@@ -18,8 +18,8 @@
             <div class=" d-flex">
                 <i class="fa-solid fa-bars"></i>
             </div>
-            
         </div>
+        
         <?php
             wp_nav_menu(
                 array(
@@ -27,6 +27,6 @@
                     'menu_id'     => 'primary-menu',
                 )
             );
-            ?>
+        ?>
 
     </header>
