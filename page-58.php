@@ -3,7 +3,6 @@
 <!-- Page nos partenaires -->
 
 
-
 <?php get_header(); ?>
 
 
