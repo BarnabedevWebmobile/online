@@ -62,11 +62,11 @@
               ?>
               
               <img src="<?php echo $posted ?>" class="d-block w-100" alt="">
-                    <div class='carousel-caption'>
-                    <h2><?php echo $title?></h2>
-                    <p class = " d-none d-md-block"><?php echo $descr?></p>
-                    <div class='d-flex justify-content-center'><button class='btn btn-danger'>Nous contacter</button><button class='btn btn-danger ms-4'>Plus d'information</button></div>
-                </div>
+                <div class='carousel-caption'>
+                  <h2><?php echo $title?></h2>
+                  <p class = " d-none d-md-block"><?php echo $descr?></p>
+                  <div class='d-flex justify-content-center'><button class='btn btn-danger'>Nous contacter</button><button class='btn btn-danger ms-4'>Plus d'information</button></div>
+                  </div>
                 </div>
             <?php
             $index++
