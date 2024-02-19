@@ -15,7 +15,7 @@
         <!-- Petite description du GRETA -->
       <div class="container flex-wrap mt-4">
         <h2 class="text-center nosform">Découvrir nos formations</h2>
-        <p class="text-center mt-5">Parcourez notre sélection de programmes adaptés à différents secteurs d’activité et niveaux de compétence. Que vous cherchiez à acquérir de nouvelles compétences, à vous spécialiser ou à vous perfectionner, nos formations vous offrent les clés pour réussir dans votre domaine. Explorez notre catalogue et lancez-vous vers l’excellence professionnelle !</p>
+        <p class="text-center mt-5">Parcourez notre sélection de programmes adaptés à différents secteurs d'activité et niveaux de compétence. Que vous cherchiez à acquérir de nouvelles compétences, à vous spécialiser ou à vous perfectionner, nos formations vous offrent les clés pour réussir dans votre domaine. Explorez notre catalogue et lancez-vous vers l'excellence professionnelle !</p>
       </div>
 
         <!-- Carrousel des formations ( récupération des formations Wordpress ) -->
