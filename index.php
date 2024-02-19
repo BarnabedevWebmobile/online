@@ -86,9 +86,9 @@
           </div>
         
         <div class="d-flex justify-content-center align-items-center flex-column mb-3">
-          <div class="container col-md-4 lesplus flex-wrap justify-content-center d-flex py-3 my-5">
-            <h2 class="mt-3">Les + du GRETA :</h2>
-            <p class=" mt-3">Notre grande valeur ajoutée pour les alternants est la sécurisation des parcours avec une proposition de changements de statuts en restant dans la même formation et en donnant la possibilité de terminer son parcours de formation avec ou sans employeurs dans la grande majorité des cas.</p>
+          <div class="container col-md-8 lesplus flex-wrap justify-content-center d-flex py-3 my-5">
+            <h2 class="mt-3">Pourquoi se former en numérique avec le GRETA ?</h2>
+            <p class=" mt-3">Le GRETA-CFA Gard lozère propose de se former dans le numérique dans les villes de Mende et de Nîmes, pour acquérir des connaissances permettant une meilleur intégration dans le monde professionnel. Les formations sont ouvertes à tous sans prérequis d'études, le seul prérequis est la motivation!</p>
           </div> 
           <p class="text-center mb-3 mt-5">Ces formations répondent au cahier des charges des Écoles régionales numériques (ERN) de la région Occitanie.</p>
         </div>
@@ -154,8 +154,8 @@
 
         <div class="d-flex flex-column flex-md-row carte">
             <div class="col-md-5 col-11 ">
-                <h3 class="mt-3 mb-5">
-                    Ou nous retrouver
+                <h3 class="mt-5 mb-5">
+                    Où nous retrouver
                 </h3>
                 
                 

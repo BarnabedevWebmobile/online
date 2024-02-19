@@ -3,28 +3,33 @@
             <span class="col-md-3 col-12 text-center">
                 <h4>qui sommes-nous ?</h1>
                 <ul>
-                    <li>Présentation</li>
-                    <li>L'équipe</li>
-                    <li>CFA du <br>numérique</li>
-                    <li>Actualités</li>
+                    <li><a href="https://www.greta-gard.com/qui-sommes-nous/">Présentation</a></li>
+
+                    <li><a href="https://www.greta-gard.com/liste-des-formations/digital-informatique/" target="_blank">CFA du <br>numérique</a></li>
+                    <li><a href="https://www.greta-gard.com/publications/" target="_blank">Actualités</a></li>
+                    <li>Nos réseaux sociaux :</li>
+                    <span class="d-flex justify-content-center">
+                        <li class = "me-1"><a href="https://twitter.com/DRAFPICA_Occ" target="_blank"><i class="fa-brands fa-x-twitter x_twitter"></i></a></li>
+                        <li class = "ms-1"><a href="https://fr.linkedin.com/school/greta-occitanie/" target="_blank"><i class="linked_in fa-brands fa-linkedin"></i></a></li>
+                    </span>
                 </ul>
             </span>
             <span class="col-md-3 col-12 text-center">
                 <h4>infos pratiques</h4>
                 <ul>
-                    <li>Nos centres de formation</li>
-                    <li>Calendrier des formations</li>
-                    <li>Financer votre formation</li>
+                    <li><a href="https://www.greta-gard.com/nos-agences/" target="_blank">Ou nous retrouver</a></li>
+                    <li><a href="https://www.greta-gard.com/apprentie/#les-aides" target="_blank">Financer votre formation</a></li>
+                    <li><a href="https://www.greta-gard.com/se-former-avec-un-handicap/" target="_blank">se former en <br>
+                    situation d'handicap</a></li>
                     <li>FAQ : Foire Aux Questions</li>
                 </ul>
             </span>
             <span class="col-md-3 col-12 text-center">
                 <h4>les formations</h4>
                 <ul>
-                    <li>Catalogue des formations</li>
-                    <li>Les formations diplômantes</li>
+                    <li><a href="https://www.greta-gard.com/formations/" target="_blank">Catalogue des formations</a></li>
                     <li>POE :  Préparation à l'Emploi</li>
-                    <li>Agenda des formations</li>
+                    <li><a href="https://www.greta-gard.com/inscriptions/#info-collective" target="_blank">Agenda des formations</a></li>
                 </ul>
             </span>
             
@@ -32,21 +37,11 @@
         <div class="container footr mt-3">
             <span class="col-12 text-center">
                 <ul>
-                    <h3>© 2024 GRETA, Tous droits réservés | Mentions légales</h3>
+                    <h2 class="mt-4 text-center ">design by berta@bretzeldesign</h2>
+                    
                 </ul>
             </span>
-        <h4 class="mt-4 text-center ">design by berta@bretzeldesign</h4>
-            <div class="container ">
-                <span class="text-center col-12">
-                    <ul>
-                        <h3>Nos réseaux sociaux : <br> <button onclick="" class="btn btn-primary">Contactez-nous.</button></h3>
-                        <span class="d-flex justify-content-center">
-                        <li class = "me-1"><a href="https://twitter.com/DRAFPICA_Occ" target="_blank"><i class="fa-brands fa-x-twitter x_twitter"></i></a></li>
-                        <li class = "ms-1"><a href="https://fr.linkedin.com/school/greta-occitanie/" target="_blank"><i class="linked_in fa-brands fa-linkedin"></i></a></li>
-                        </span>
-                    </ul>
-                </span>
-            </div>
+            <p class="text-center">© 2024 GRETA, Tous droits réservés | Mentions légales</p>
         </div>
     </footer>
 </body>
