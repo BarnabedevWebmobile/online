@@ -3,9 +3,7 @@
             <span class="col-md-3 col-12 text-center">
                 <h4>qui sommes-nous ?</h1>
                 <ul>
-                    <li><a href="https://www.greta-gard.com/qui-sommes-nous/">Présentation</a></li>
-
-                    <li><a href="https://www.greta-gard.com/liste-des-formations/digital-informatique/" target="_blank">CFA du <br>numérique</a></li>
+                    <li><a href="https://www.greta-gard.com/qui-sommes-nous/" target="_blank">Présentation</a></li>
                     <li><a href="https://www.greta-gard.com/publications/" target="_blank">Actualités</a></li>
                     <li>Nos réseaux sociaux :</li>
                     <span class="d-flex justify-content-center">
@@ -21,14 +19,13 @@
                     <li><a href="https://www.greta-gard.com/apprentie/#les-aides" target="_blank">Financer votre formation</a></li>
                     <li><a href="https://www.greta-gard.com/se-former-avec-un-handicap/" target="_blank">se former en <br>
                     situation d'handicap</a></li>
-                    <li>FAQ : Foire Aux Questions</li>
                 </ul>
             </span>
             <span class="col-md-3 col-12 text-center">
                 <h4>les formations</h4>
                 <ul>
                     <li><a href="https://www.greta-gard.com/formations/" target="_blank">Catalogue des formations</a></li>
-                    <li>POE :  Préparation à l'Emploi</li>
+                    <li><a href="https://www.greta-gard.com/liste-des-formations/digital-informatique/" target="_blank">CFA du <br>numérique</a></li>
                     <li><a href="https://www.greta-gard.com/inscriptions/#info-collective" target="_blank">Agenda des formations</a></li>
                 </ul>
             </span>
@@ -37,7 +34,7 @@
         <div class="container footr mt-3">
             <span class="col-12 text-center">
                 <ul>
-                    <h2 class="mt-4 text-center ">design by berta@bretzeldesign</h2>
+                    <h2 class="mt-4 text-center ">design by berta@bretzeldesign ft.wordpress</h2>
                     
                 </ul>
             </span>
