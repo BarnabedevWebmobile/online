@@ -2,17 +2,29 @@
 Theme Name: DWWM team1 theme
 Description: Theme team 1
 */
+a{
+    color: #000;
+}
+.content-button a button{
+    font-size: 12px;
+}
+.menu ul{
+    display: flex; 
 
+}
+.menu ul li{
+    margin-right: 10vh;
+    margin-top: 4vh;
+}
 .vide{
     height:150px;
 }
 
 .lesplus{
-    border: 3px solid;
-    border-color:rgb(46,204,113);
+    border: 1px solid;
+    border-color:#dd6628;
     border-radius: 5px;
 }
-
 .nosform{
     font-weight: 700;
     font-size: 35px;
@@ -20,9 +32,6 @@ Description: Theme team 1
 header a{
     text-decoration: none;
     color: #000;
-}
-header nav{
-
 }
 header img{
     max-width: 250px;
@@ -40,17 +49,34 @@ i{
 .formation img{
     height: 600px;
 }
+.screen-reader-response{
+font-style:bold;
+color:red;
+}
+.screen-reader-response ul{
+display:none;
+}
+.wpcf7-response-output{
+display:none;
+}
 .card{
 height : 100%;
+}
+.formetoi a{
+color: #003049;
 }
 .formetoi img{
 width:25%;
 max-height:200px;
+max-width: 300px;
 }
 .card img{
 	width : 100%;
 	height: auto;
     }
+.carousel-caption{
+    text-shadow: 1px 1px 2px black;
+}
 .logo img{
     width :100%;
     height:150px;
@@ -73,6 +99,30 @@ max-height:200px;
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* page partenaire */
+
+.nos_partenaires{
+    background-color: rgb(241,235,230);
+    border-radius: 10px;
+}
+
+.logo2{
+    width: 75%;
+    height: auto;
+}
+
+.partenaires{
+    border: 5px solid rgb(241,235,230); 
+    border-radius: 10px;
+}
+
+.ern{
+    width: 25%;
+    height: auto;
+}
+
+/* page partenaire */
 
 footer{
     /* text-align: center; */
@@ -121,11 +171,22 @@ footer label{
 .linked_in{
     color: #fff;
 }
-
+footer p{
+margin-bottom : 0;
+}
+h2{
+    color: #6c757d;
+}
 .footer a{
     text-decoration:none;
     color: rgb(191,178,152);
     text-align: center;
+}
+.footer a:hover{
+    color: #1779a3;
+}
+footer h2{
+    color: #fff;
 }
 @media (max-width : 650px){
 
@@ -142,6 +203,7 @@ footer label{
     .formation{
 	font-size : 10px;
     }
+    
     .formation h2{
 	font-size : 20px;
     }
@@ -167,6 +229,13 @@ footer label{
 .formetoi img{
 width:100%;
 max-height:150px;
+}
+.dropdown-menu .menu ul{
+flex-direction:column;
+}
+.menu ul li{
+    margin-right: 0;
+    margin-top: 5px;
 }
     .btn{
 	font-size:11px;

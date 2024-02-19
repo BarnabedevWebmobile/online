@@ -11,15 +11,30 @@
 </head>
 <body>
 
-    <header class="d-flex col-12 justify-content-around fixed-top bg-white ">
-        <a href="https://greta.1.lopia.fr/" class="col-8 col-md-2 ps-3 "><img  src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/logo.png" alt="logo du greta et de la france"></a>
-        <div class="col-2"></div>
-        <div class="col-1 d-md-none d-flex align-items-center">
+    <header class="d-flex col-12 justify-content-between fixed-top bg-white shadow ">
+        <a href="https://greta.1.lopia.fr/" class="col-6 col-md-2 ps-3 "><img class="img-fluid" src="https://greta.1.lopia.fr/wp-content/uploads/2024/02/logo.png" alt="logo du greta et de la france"></a>
+
+        <div class="col-2 d-md-none d-flex align-items-center">
             <div class=" d-flex">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            
+            <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="dropdown-menu">
+            <?php
+            wp_nav_menu(
+                array(
+                    'theme_location' => 'Menu-principal',
+                    'menu_id'     => 'primary-menu',
+                )
+            );
+        ?>
+            </ul>
         </div>
+            </div>
+        </div>
+        
+        <div class = "d-none d-sm-block me-2">
         <?php
             wp_nav_menu(
                 array(
@@ -27,6 +42,8 @@
                     'menu_id'     => 'primary-menu',
                 )
             );
-            ?>
+        ?>
+        </div>
+        
 
     </header>

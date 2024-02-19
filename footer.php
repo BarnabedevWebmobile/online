@@ -1,5 +1,5 @@
     <footer class="footer">
-        <div class="container d-flex flex-column flex-md-row justify-content-between">
+        <div class="container d-flex flex-column flex-md-row py-3 justify-content-between">
             <span class="col-md-3 col-12 text-center">
                 <h4>qui sommes-nous ?</h1>
                 <ul>
@@ -34,7 +34,7 @@
         <div class="container footr mt-3">
             <span class="col-12 text-center">
                 <ul>
-                    <h2 class="mt-4 pt-2 text-center ">design by bretzeldesign ft.wordpress</h2>
+                    <h2 class="mt-4 pt-2 text-center ">design by bretzeldesign</h2>
                     
                 </ul>
             </span>
