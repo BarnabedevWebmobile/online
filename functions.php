@@ -1,3 +1,4 @@
+<!-- fonction, enregistrement du menu -->
 <?php 
 
 register_nav_menus( array(
@@ -7,3 +8,4 @@ register_nav_menus( array(
 
 add_theme_support( 'post-thumbnails' );
 ?>
+<!-- fonction, enregistrement du menu -->

@@ -1,5 +1,8 @@
+    <!-- footer commun a toutes les pages -->
     <footer class="footer">
         <div class="container d-flex flex-column flex-md-row py-3 justify-content-between">
+
+            <!-- colonne de présentation et réseaux sociaux -->
             <span class="col-md-3 col-12 text-center">
                 <h4>qui sommes-nous ?</h1>
                 <ul>
@@ -12,15 +15,21 @@
                     </span>
                 </ul>
             </span>
+            <!-- colonne de présentation et réseaux sociaux -->
+
+            <!-- colonne des informations supplémentaires -->
             <span class="col-md-3 col-12 text-center">
                 <h4>infos pratiques</h4>
                 <ul>
-                    <li><a href="https://www.greta-gard.com/nos-agences/" target="_blank">Ou nous retrouver</a></li>
+                    <li><a href="https://www.greta-gard.com/nos-agences/" target="_blank">Où nous retrouver</a></li>
                     <li><a href="https://www.greta-gard.com/apprentie/#les-aides" target="_blank">Financer votre formation</a></li>
-                    <li><a href="https://www.greta-gard.com/se-former-avec-un-handicap/" target="_blank">se former en <br>
+                    <li><a href="https://www.greta-gard.com/se-former-avec-un-handicap/" target="_blank">Se former en <br>
                     situation d'handicap</a></li>
                 </ul>
             </span>
+            <!-- colonne des informations supplémentaires -->
+
+            <!-- colonne des informations sur le formation -->
             <span class="col-md-3 col-12 text-center">
                 <h4>les formations</h4>
                 <ul>
@@ -29,17 +38,22 @@
                     <li><a href="https://www.greta-gard.com/inscriptions/#info-collective" target="_blank">Agenda des formations</a></li>
                 </ul>
             </span>
-            
+            <!-- colonne des informations sur le formation -->
         </div>
-        <div class="container footr mt-3">
-            <span class="col-12 text-center">
+
+        <!-- design et mention légales -->
+        <div class="container footr col-4 offset-4 mt-3">
+            <span class="text-center">
                 <ul>
-                    <h2 class="mt-4 pt-2 text-center ">design by bretzeldesign</h2>
-                    
+                    <h2 class="mt-4 pt-3 text-center">Design by Bretzeldesign</h2>
                 </ul>
             </span>
-            <p class="text-center pb-2">© 2024 GRETA, Tous droits réservés | Mentions légales</p>
+            <p class="text-center pb-3">© 2024 GRETA, Tous droits réservés | Mentions légales</p>
         </div>
+        <!-- design et mention légales -->
+
     </footer>
+    <!-- footer commun a toutes les pages -->
+    
 </body>
 </html>

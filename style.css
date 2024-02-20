@@ -8,6 +8,18 @@ a{
 .content-button a button{
     font-size: 12px;
 }
+
+/* menu */
+header a{
+    text-decoration: none;
+    color: #000;
+}
+header img{
+    max-width: 250px;
+}
+.menu{
+    font-size: 18px;
+}
 .menu ul{
     display: flex; 
 
@@ -19,23 +31,8 @@ a{
 .vide{
     height:150px;
 }
+/* menu */
 
-.lesplus{
-    border: 1px solid;
-    border-color:#dd6628;
-    border-radius: 5px;
-}
-.nosform{
-    font-weight: 700;
-    font-size: 35px;
-}
-header a{
-    text-decoration: none;
-    color: #000;
-}
-header img{
-    max-width: 250px;
-}
 a:hover{
     color: #666;
 }
@@ -46,9 +43,28 @@ i{
     width: 100%;
     height: 100%;
 }
+/* entête */
+.nosform{
+    font-weight: 700;
+    font-size: 35px;
+}
 .formation img{
     height: 600px;
 }
+.carousel-caption{
+    text-shadow: 1px 1px 2px black;
+}
+.hero-banner{
+    background-image: url(https://greta.1.lopia.fr/wp-content/uploads/2024/02/banner-2-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width: auto;
+}
+/* entête */
+
+/* formulaire de contact */
 .screen-reader-response{
 font-style:bold;
 color:red;
@@ -59,24 +75,33 @@ display:none;
 .wpcf7-response-output{
 display:none;
 }
+/* formulaire de contact */
+
+/* card accueuil */
 .card{
 height : 100%;
+}
+.card img{
+	width : 100%;
+	height: auto;
+}
+/* card accueuil */
+
+/* card page formation */
+.formetoi h3{
+    margin-bottom: 0;
 }
 .formetoi a{
 color: #003049;
 }
 .formetoi img{
 width:25%;
-max-height:200px;
+max-height:125px;
 max-width: 300px;
 }
-.card img{
-	width : 100%;
-	height: auto;
-    }
-.carousel-caption{
-    text-shadow: 1px 1px 2px black;
-}
+/* card page formation */
+
+/* bandeau des partenaires */
 .logo img{
     width :100%;
     height:150px;
@@ -85,23 +110,21 @@ max-width: 300px;
     padding-top:25px;
     height:100px;
 }
-.hero-banner{
-    background-image: url(https://greta.1.lopia.fr/wp-content/uploads/2024/02/banner-2-1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 800px;
-    width: auto;
-}
-.actualite img{
-    height: 400px;
-}
+/* bandeau des partenaires */
+
+/* divers */
 body{
     font-family: 'Poppins', sans-serif;
 }
+hr{
+    margin-top: 2px;
+}
+h2{
+    color: #6c757d;
+}
+/* divers */
 
 /* page partenaire */
-
 .nos_partenaires{
     background-color: rgb(241,235,230);
     border-radius: 10px;
@@ -121,9 +144,9 @@ body{
     width: 25%;
     height: auto;
 }
-
 /* page partenaire */
 
+/* footer */
 footer{
     /* text-align: center; */
     margin-top: 15px;
@@ -143,7 +166,7 @@ footer ul{
 }
 
 footer li{
-    color: rgb(191,178,152);
+    color: #1779a3;
 }
 
 footer label{
@@ -151,7 +174,8 @@ footer label{
 }
 
 .footer {
-    background-color: rgb(0,51,80);
+    box-shadow: 0 -.5rem 1rem rgba(0,0,0,.15);
+    background-color: rgb(241,235,230);
 }
 
 .footer ul p {
@@ -159,35 +183,46 @@ footer label{
 }
 
 .footr{
-   background-color: rgb(1,26,45);
-   color: white;
+    background-color: #1779a3ba;
+    color: #fff;
+    border-radius: 10px;
 }
 
 
 .x_twitter{
-    color: #fff;
+    font-size: 20px;
+    color: #1779a3;
 }
 
 .linked_in{
-    color: #fff;
+    font-size: 20px;
+    color: #1779a3;
+}
+.x_twitter:hover{
+    color: #264653;
+}
+.linked_in:hover{
+    color: #264653;
 }
 footer p{
 margin-bottom : 0;
 }
-h2{
-    color: #6c757d;
-}
+
 .footer a{
     text-decoration:none;
-    color: rgb(191,178,152);
+    color: #1779a3;
     text-align: center;
 }
 .footer a:hover{
-    color: #1779a3;
+    color: #264653;
 }
 footer h2{
     color: #fff;
+    font-size: 20px;
 }
+/* footer */
+
+/* media query */
 @media (max-width : 650px){
 
     .hero-banner{
@@ -242,3 +277,4 @@ flex-direction:column;
 	font-size:11px;
     }
 }
+/* media query */
