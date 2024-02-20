@@ -1,11 +1,8 @@
 
-<!-- Page contact -->
+<!-- Contact -->
 
 <?php get_header(); ?>
 
-
-
-    <!-- Formulaire créé via Wordpress -->
 <div class='w-25 vide'></div>
 <section class="container">
   <h1 class="text-center">Formulaire de contact</h1>
@@ -22,6 +19,5 @@
 </section>
 
 
-    
 <?php get_footer(); ?>
 <?php wp_link_pages(); ?>

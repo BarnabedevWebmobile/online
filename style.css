@@ -229,6 +229,7 @@ footer h2{
 .formetoi img{
 width:100%;
 max-height:150px;
+max-width: 500px;
 }
 .dropdown-menu .menu ul{
 flex-direction:column;
