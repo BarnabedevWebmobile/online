@@ -18,4 +18,13 @@ Prérequis :
   3. cloné le dossier dans github desktop
   4. ajouter le dossier dans le dossier thême de wordpress
   5. dans wordpress->apparence->thême selectionner le theme personnalisé
+  6. un IDE
+  7. connaissance de bootstrap et wordpress
+
+Gestion dynamique :
+  - carousel des formations
+  - cards des actualités
+  - page des formation
+  - page des actualités
+  - menu du header
 
